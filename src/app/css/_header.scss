@@ -1,0 +1,61 @@
+/***********************************************************
+* Copyright (c) Microsoft Corporation. All rights reserved.
+* Licensed under the MIT License
+**********************************************************/
+@import 'variables';
+@import 'themes';
+
+@media screen and (min-width: $screenSize) {
+    header {
+        padding-bottom: 5px;
+        display: grid;
+        grid-template-areas: 'title . settings';
+        grid-template-columns: 1fr 3.5fr 0.3fr;
+        .title {
+            grid-area: title;
+            padding-bottom: 5px;
+        }
+
+        .settings {
+            grid-area: settings;
+        }
+
+    }
+}
+
+@media screen and (max-width: $screenSize) {
+    header {
+        margin-bottom: 3px;
+        padding-bottom: 3px;
+        .title {
+            padding-bottom: 5px;
+        }
+    }
+}
+
+.header {
+    .title {
+        grid-area: title;
+
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .ms-Button {
+        background: transparent;
+        height: 100%;
+    }
+    @include themify($themes) {
+        color: themed('headerTitleColor');
+        background-color: themed('headerBackgroundColor');
+        .title {
+            color: themed('headerTitleColor');
+        }
+        .ms-Button {
+            color: themed('headerButtonColor');
+        }
+        .active {
+            background-color: themed('headerActiveBackgroundColor');
+        }
+    }
+}

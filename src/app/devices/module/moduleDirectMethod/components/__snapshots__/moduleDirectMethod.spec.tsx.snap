@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`moduleDirectMethod matches snapshot 1`] = `
+<Fragment>
+  <StyledCommandBarBase
+    className="command"
+    items={
+      Array [
+        Object {
+          "ariaLabel": "directMethod.invokeMethodButtonText",
+          "disabled": true,
+          "iconProps": Object {
+            "iconName": "Remote",
+          },
+          "key": "Remote",
+          "name": "directMethod.invokeMethodButtonText",
+          "onClick": [Function],
+        },
+      ]
+    }
+  />
+  <DirectMethodForm
+    connectionTimeOut={10}
+    methodName=""
+    responseTimeOut={10}
+    setConnectionTimeOut={[Function]}
+    setMethodName={[Function]}
+    setPayload={[Function]}
+    setResponseTimeOut={[Function]}
+  />
+</Fragment>
+`;

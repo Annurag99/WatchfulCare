@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModelRepositoryLocationList matches snapshot with all items 1`] = `
+<div
+  className="location-list"
+>
+  <t
+    behaviour="move"
+    onDrop={[Function]}
+    orientation="vertical"
+  >
+    <n
+      key="PUBLIC"
+    >
+      <ModelRepositoryLocationListItem
+        formState={
+          Array [
+            Object {
+              "dirty": false,
+              "repositoryLocationSettings": Array [
+                Object {
+                  "repositoryLocationType": "PUBLIC",
+                  "value": "",
+                },
+                Object {
+                  "repositoryLocationType": "CONFIGURABLE",
+                  "value": "test.com",
+                },
+                Object {
+                  "repositoryLocationType": "LOCAL",
+                  "value": "d:/myModels",
+                },
+                Object {
+                  "repositoryLocationType": "DMR",
+                  "value": "c:/dtmi",
+                },
+              ],
+              "repositoryLocationSettingsErrors": Object {},
+            },
+            Object {
+              "setDirtyFlag": [Function],
+              "setRepositoryLocationSettings": [Function],
+              "setRepositoryLocationSettingsErrors": [Function],
+            },
+          ]
+        }
+        index={0}
+        item={
+          Object {
+            "repositoryLocationType": "PUBLIC",
+            "value": "",
+          }
+        }
+      />
+    </n>
+    <n
+      key="CONFIGURABLE"
+    >
+      <ModelRepositoryLocationListItem
+        formState={
+          Array [
+            Object {
+              "dirty": false,
+              "repositoryLocationSettings": Array [
+                Object {
+                  "repositoryLocationType": "PUBLIC",
+                  "value": "",
+                },
+                Object {
+                  "repositoryLocationType": "CONFIGURABLE",
+                  "value": "test.com",
+                },
+                Object {
+                  "repositoryLocationType": "LOCAL",
+                  "value": "d:/myModels",
+                },
+                Object {
+                  "repositoryLocationType": "DMR",
+                  "value": "c:/dtmi",
+                },
+              ],
+              "repositoryLocationSettingsErrors": Object {},
+            },
+            Object {
+              "setDirtyFlag": [Function],
+              "setRepositoryLocationSettings": [Function],
+              "setRepositoryLocationSettingsErrors": [Function],
+            },
+          ]
+        }
+        index={1}
+        item={
+          Object {
+            "repositoryLocationType": "CONFIGURABLE",
+            "value": "test.com",
+          }
+        }
+      />
+    </n>
+    <n
+      key="LOCAL"
+    >
+      <ModelRepositoryLocationListItem
+        formState={
+          Array [
+            Object {
+              "dirty": false,
+              "repositoryLocationSettings": Array [
+                Object {
+                  "repositoryLocationType": "PUBLIC",
+                  "value": "",
+                },
+                Object {
+                  "repositoryLocationType": "CONFIGURABLE",
+                  "value": "test.com",
+                },
+                Object {
+                  "repositoryLocationType": "LOCAL",
+                  "value": "d:/myModels",
+                },
+                Object {
+                  "repositoryLocationType": "DMR",
+                  "value": "c:/dtmi",
+                },
+              ],
+              "repositoryLocationSettingsErrors": Object {},
+            },
+            Object {
+              "setDirtyFlag": [Function],
+              "setRepositoryLocationSettings": [Function],
+              "setRepositoryLocationSettingsErrors": [Function],
+            },
+          ]
+        }
+        index={2}
+        item={
+          Object {
+            "repositoryLocationType": "LOCAL",
+            "value": "d:/myModels",
+          }
+        }
+      />
+    </n>
+    <n
+      key="DMR"
+    >
+      <ModelRepositoryLocationListItem
+        formState={
+          Array [
+            Object {
+              "dirty": false,
+              "repositoryLocationSettings": Array [
+                Object {
+                  "repositoryLocationType": "PUBLIC",
+                  "value": "",
+                },
+                Object {
+                  "repositoryLocationType": "CONFIGURABLE",
+                  "value": "test.com",
+                },
+                Object {
+                  "repositoryLocationType": "LOCAL",
+                  "value": "d:/myModels",
+                },
+                Object {
+                  "repositoryLocationType": "DMR",
+                  "value": "c:/dtmi",
+                },
+              ],
+              "repositoryLocationSettingsErrors": Object {},
+            },
+            Object {
+              "setDirtyFlag": [Function],
+              "setRepositoryLocationSettings": [Function],
+              "setRepositoryLocationSettingsErrors": [Function],
+            },
+          ]
+        }
+        index={3}
+        item={
+          Object {
+            "repositoryLocationType": "DMR",
+            "value": "c:/dtmi",
+          }
+        }
+      />
+    </n>
+  </t>
+</div>
+`;
+
+exports[`ModelRepositoryLocationList matches snapshot with no items 1`] = `
+<div
+  className="location-list"
+>
+  <t
+    behaviour="move"
+    onDrop={[Function]}
+    orientation="vertical"
+  />
+</div>
+`;

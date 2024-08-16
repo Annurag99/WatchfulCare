@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/shared/labelWithRichCallout matches snapshot 1`] = `
+<div
+  className="labelWithTooltip"
+>
+  <StyledLabelBase
+    calloutContent={<React.Fragment />}
+  >
+    labelText
+  </StyledLabelBase>
+  <CustomizedIconButton
+    iconProps={
+      Object {
+        "iconName": "Info",
+      }
+    }
+    id="iconbutton0"
+    onClick={[Function]}
+  />
+</div>
+`;

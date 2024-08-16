@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModelRepositoryLocationListItem matches snapshot for configurable repo 1`] = `
+<div
+  className="item"
+  role="list"
+>
+  <div
+    className="numbering"
+  >
+    2
+  </div>
+  <div
+    className="location-item"
+    role="listitem"
+  >
+    <div
+      className="item-details"
+    >
+      <ListItemConfigurableRepo
+        formState={
+          Array [
+            Object {
+              "dirty": false,
+              "repositoryLocationSettings": Array [
+                Object {
+                  "repositoryLocationType": "PUBLIC",
+                  "value": "",
+                },
+              ],
+              "repositoryLocationSettingsErrors": Object {},
+            },
+            Object {
+              "setDirtyFlag": [Function],
+              "setRepositoryLocationSettings": [Function],
+              "setRepositoryLocationSettingsErrors": [Function],
+            },
+          ]
+        }
+        index={1}
+        item={
+          Object {
+            "repositoryLocationType": "CONFIGURABLE",
+            "value": "test.com",
+          }
+        }
+      />
+    </div>
+    <CustomizedIconButton
+      ariaLabel="modelRepository.commands.remove.ariaLabel"
+      className="remove-button"
+      iconProps={
+        Object {
+          "iconName": "Cancel",
+        }
+      }
+      onClick={[Function]}
+      title="modelRepository.commands.remove.label"
+    />
+  </div>
+</div>
+`;
+
+exports[`ModelRepositoryLocationListItem matches snapshot for local folder 1`] = `
+<div
+  className="item"
+  role="list"
+>
+  <div
+    className="numbering"
+  >
+    3
+  </div>
+  <div
+    className="location-item"
+    role="listitem"
+  >
+    <div
+      className="item-details"
+    >
+      <ListItemLocal
+        formState={
+          Array [
+            Object {
+              "dirty": false,
+              "repositoryLocationSettings": Array [
+                Object {
+                  "repositoryLocationType": "PUBLIC",
+                  "value": "",
+                },
+              ],
+              "repositoryLocationSettingsErrors": Object {},
+            },
+            Object {
+              "setDirtyFlag": [Function],
+              "setRepositoryLocationSettings": [Function],
+              "setRepositoryLocationSettingsErrors": [Function],
+            },
+          ]
+        }
+        index={2}
+        item={
+          Object {
+            "repositoryLocationType": "LOCAL",
+            "value": "c:/models",
+          }
+        }
+        repoType="LOCAL"
+      />
+    </div>
+    <CustomizedIconButton
+      ariaLabel="modelRepository.commands.remove.ariaLabel"
+      className="remove-button"
+      iconProps={
+        Object {
+          "iconName": "Cancel",
+        }
+      }
+      onClick={[Function]}
+      title="modelRepository.commands.remove.label"
+    />
+  </div>
+</div>
+`;
+
+exports[`ModelRepositoryLocationListItem matches snapshot for local repo 1`] = `
+<div
+  className="item"
+  role="list"
+>
+  <div
+    className="numbering"
+  >
+    4
+  </div>
+  <div
+    className="location-item"
+    role="listitem"
+  >
+    <div
+      className="item-details"
+    >
+      <ListItemLocal
+        formState={
+          Array [
+            Object {
+              "dirty": false,
+              "repositoryLocationSettings": Array [
+                Object {
+                  "repositoryLocationType": "PUBLIC",
+                  "value": "",
+                },
+              ],
+              "repositoryLocationSettingsErrors": Object {},
+            },
+            Object {
+              "setDirtyFlag": [Function],
+              "setRepositoryLocationSettings": [Function],
+              "setRepositoryLocationSettingsErrors": [Function],
+            },
+          ]
+        }
+        index={3}
+        item={
+          Object {
+            "repositoryLocationType": "DMR",
+            "value": "c:/dtmi",
+          }
+        }
+        repoType="DMR"
+      />
+    </div>
+    <CustomizedIconButton
+      ariaLabel="modelRepository.commands.remove.ariaLabel"
+      className="remove-button"
+      iconProps={
+        Object {
+          "iconName": "Cancel",
+        }
+      }
+      onClick={[Function]}
+      title="modelRepository.commands.remove.label"
+    />
+  </div>
+</div>
+`;
+
+exports[`ModelRepositoryLocationListItem matches snapshot for public repo 1`] = `
+<div
+  className="item"
+  role="list"
+>
+  <div
+    className="numbering"
+  >
+    1
+  </div>
+  <div
+    className="location-item"
+    role="listitem"
+  >
+    <div
+      className="item-details"
+    >
+      <ListItemPublicRepo />
+    </div>
+    <CustomizedIconButton
+      ariaLabel="modelRepository.commands.remove.ariaLabel"
+      className="remove-button"
+      iconProps={
+        Object {
+          "iconName": "Cancel",
+        }
+      }
+      onClick={[Function]}
+      title="modelRepository.commands.remove.label"
+    />
+  </div>
+</div>
+`;

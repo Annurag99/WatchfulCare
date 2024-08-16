@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeviceModules matches snapshot 1`] = `
+<Fragment>
+  <Component
+    component={[Function]}
+    exact={true}
+    path=""
+  />
+  <BreadcrumbRoute
+    breadcrumb={
+      Object {
+        "name": "breadcrumb.addModuleIdentity",
+      }
+    }
+    exact={true}
+    path="/add"
+  >
+    <AddModuleIdentity />
+  </BreadcrumbRoute>
+  <BreadcrumbRoute
+    breadcrumb={
+      Object {
+        "name": "mod1",
+        "suffix": "?moduleId=mod1",
+      }
+    }
+    exact={true}
+    path="/moduleDetail"
+  >
+    <ModuleIdentityDetail />
+  </BreadcrumbRoute>
+  <BreadcrumbRoute
+    breadcrumb={
+      Object {
+        "name": "mod1",
+        "suffix": "?moduleId=mod1",
+      }
+    }
+    exact={true}
+    path="/moduleTwin"
+  >
+    <ModuleIdentityTwin />
+  </BreadcrumbRoute>
+  <BreadcrumbRoute
+    breadcrumb={
+      Object {
+        "name": "mod1",
+        "suffix": "?moduleId=mod1",
+      }
+    }
+    exact={true}
+    path="/moduleMethod"
+  >
+    <ModuleDirectMethod />
+  </BreadcrumbRoute>
+  <DeviceEventsStateContextProvider>
+    <BreadcrumbRoute
+      breadcrumb={
+        Object {
+          "name": "mod1",
+          "suffix": "?moduleId=mod1",
+        }
+      }
+      path="/moduleEvents"
+    >
+      <DeviceEvents />
+    </BreadcrumbRoute>
+  </DeviceEventsStateContextProvider>
+  <BreadcrumbRoute
+    breadcrumb={
+      Object {
+        "disableLink": true,
+        "name": "mod1",
+        "suffix": "?moduleId=mod1",
+      }
+    }
+    path="/modulePnp"
+  >
+    <Pnp />
+  </BreadcrumbRoute>
+</Fragment>
+`;

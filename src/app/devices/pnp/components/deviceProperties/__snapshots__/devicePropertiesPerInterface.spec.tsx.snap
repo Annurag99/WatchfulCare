@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`devicePropertiesPerInterface matches snapshot 1`] = `
+<div
+  className="pnp-detail-list scrollable-lg ms-Grid"
+>
+  <div
+    className="list-detail pnp-properties"
+  >
+    <ResizableDetailsList
+      checkboxVisibility={2}
+      columns={
+        Array [
+          Object {
+            "fieldName": "name",
+            "isMultiline": true,
+            "key": "name",
+            "minWidth": 100,
+            "name": "deviceProperties.columns.name",
+          },
+          Object {
+            "fieldName": "schema",
+            "isMultiline": true,
+            "key": "schema",
+            "minWidth": 100,
+            "name": "deviceProperties.columns.schema",
+          },
+          Object {
+            "fieldName": "unit",
+            "isMultiline": true,
+            "key": "unit",
+            "minWidth": 100,
+            "name": "deviceProperties.columns.unit",
+          },
+          Object {
+            "fieldName": "value",
+            "isMultiline": true,
+            "key": "value",
+            "minWidth": 150,
+            "name": "deviceProperties.columns.value",
+          },
+        ]
+      }
+      items={
+        Array [
+          Object {
+            "propertyModelDefinition": Object {
+              "@type": "Property",
+              "description": "Current temperature reported from the device.",
+              "displayName": "Current Temperature",
+              "name": "currentTemperature",
+              "schema": "double",
+              "writable": false,
+            },
+            "propertySchema": Object {
+              "required": null,
+              "title": "Current temperature reported from the device.",
+              "type": "number",
+            },
+            "reportedTwin": 12.5,
+          },
+        ]
+      }
+      layoutMode={1}
+      onRenderItemColumn={[Function]}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HubList matches snapshot when there are list items 1`] = `
+<Fragment>
+  <FilterTextBox
+    filterType={1}
+    setFilteredList={[Function]}
+  />
+  <ResizableDetailsList
+    columns={
+      Array [
+        Object {
+          "key": "name",
+          "minWidth": 150,
+          "name": "authentication.azureActiveDirectory.hubList.columns.name",
+        },
+        Object {
+          "key": "id",
+          "minWidth": 150,
+          "name": "authentication.azureActiveDirectory.hubList.columns.location",
+        },
+      ]
+    }
+    items={Array []}
+    onRenderItemColumn={[Function]}
+    selectionMode={0}
+  />
+</Fragment>
+`;
+
+exports[`HubList matches snapshot when there are no list items 1`] = `
+<Fragment>
+  <FilterTextBox
+    filterType={1}
+    setFilteredList={[Function]}
+  />
+  <ResizableDetailsList
+    columns={
+      Array [
+        Object {
+          "key": "name",
+          "minWidth": 150,
+          "name": "authentication.azureActiveDirectory.hubList.columns.name",
+        },
+        Object {
+          "key": "id",
+          "minWidth": 150,
+          "name": "authentication.azureActiveDirectory.hubList.columns.location",
+        },
+      ]
+    }
+    items={Array []}
+    onRenderItemColumn={[Function]}
+    selectionMode={0}
+  />
+  authentication.azureActiveDirectory.hubList.noItemText
+</Fragment>
+`;

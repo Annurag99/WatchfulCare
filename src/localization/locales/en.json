@@ -1,0 +1,1052 @@
+{
+    "azureResource": {
+        "access": {
+            "unauthorized": "You do not have access to this resource",
+            "failed": "Unable to verify access to this resource",
+            "verifying": "Verifying access to this resource"
+        }
+    },
+    "common": {
+        "close": "Close",
+        "home": "Home",
+        "learnMore": "Learn more",
+        "loading": "Loading...",
+        "revealPassword": "Show content",
+        "maskedCopyableTextField": {
+            "toggleMask": {
+                "label": {
+                    "show": "Show content",
+                    "hide": "Hide content"
+                }
+            },
+            "copy": {
+                "label": "Copy Contents"
+            },
+            "copied": {
+                "label": "Content copied to clipboard"
+            }
+        },
+        "confirmationDialog": {
+            "title": "Confirmation",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "navigation": {
+            "confirm": "Your unsaved edits will be discarded.",
+            "collapse": "Collapse navigation menu",
+            "expand": "Expand navigation menu"
+        }
+    },
+    "collapsibleSection": {
+        "open": "Open",
+        "close": "Collapse"
+    },
+    "resizableDetailsList": {
+        "content": {
+            "closeButtonAriaLabel": "Close",
+            "subText": "Enter desired column width pixels:",
+            "title": "Resize Column"
+        },
+        "buttons": {
+            "resize": "Resize",
+            "cancel": "Cancel"
+        }
+    },
+    "header": {
+        "applicationName": "Azure IoT Explorer (preview)",
+        "search": {
+            "watermark": "Find on page"
+        },
+        "notifications": {
+            "show": "Notifications",
+            "title": "Notification center",
+            "dismiss": "Clear all notifications",
+            "panel": {
+                "title": "Notifications",
+                "noNotifications": "There are no new notifications for this session.",
+                "redirect": "Looking for notifications?",
+                "redirectLink": "Please visit Notification Center"
+            },
+            "copy": "Copy"
+        },
+        "questions": {
+            "launch": "Open ???"
+        },
+        "settings": {
+            "launch": "Settings"
+        }
+    },
+    "settings": {
+        "headerText": "Settings",
+        "configuration": {
+            "headerText": "App configurations",
+            "redirect": "Looking for connection settings?",
+            "redirectLink": "Please visit Home."
+        },
+        "modelDefinitions": {
+            "headerText": "IoT Plug and Play configuration",
+            "redirect": "Looking for IoT Plug and Play settings?",
+            "redirectLink": "Please visit Home."
+        },
+        "questions": {
+            "headerText": "Help:",
+            "questions":{
+                "documentation": {
+                    "text":"IoT Plug and Play documentation",
+                    "link": "https://aka.ms/azure-iot-explorer-documentation"
+                },
+                "privacy": {
+                    "text": "Before enabling us to retrieve model definition from a local folder, please read ",
+                    "linkText": "Microsoft Privacy Statement",
+                    "link": "http://go.microsoft.com/fwlink/?LinkId=521839"
+                }
+            }
+        },
+        "footerText": "You can come back to Settings and make changes later.",
+        "save": "Save and Connect",
+        "close": "Close",
+        "confirmationMessage": "Are you sure you want to close without saving?",
+        "theme": {
+            "headerText": "Application theme",
+            "label": "Theme",
+            "darkTheme": "Dark",
+            "lightTheme": "Light"
+        }
+    },
+    "breadcrumb": {
+        "devices": "Devices",
+        "add": "Create a new identity",
+        "identity": "Device identity",
+        "twin": "Device twin",
+        "events": "Telemetry",
+        "eventsPerInterface": "Telemetry",
+        "methods": "Direct method",
+        "cloudToDeviceMessage": "Cloud-to-device message",
+        "moduleIdentity": "Module identities",
+        "interfaces": "Interface",
+        "properties": "Properties (read-only)",
+        "settings": "Properties (writable)",
+        "commands": "Commands",
+        "ioTPlugAndPlay": "IoT Plug and Play components",
+        "resources": "IoT hubs",
+        "repos": "IoT Plug and Play Settings",
+        "moduleDetail": "Module detail",
+        "moduleTwin": "Module twin",
+        "moduleMethod": "Module direct method",
+        "addModuleIdentity": "Add module identity",
+        "modulePnp": "IoT Plug and Play components",
+        "moduleEvents": "Telemetry",
+        "notificationCenter": "Notification Center",
+        "navigate": "navigating to the following page"
+    },
+    "deviceContent": {
+        "start": "Select a device to start",
+        "value": "Value"
+    },
+    "connectionStrings": {
+        "empty": {
+            "header": "No connections to display",
+            "description": "You will need to add an IoT hub connection string. Connection strings are saved to application storage and can be edited or removed at any time by returning"
+        },
+        "addConnectionCommand": {
+            "label": "Add connection",
+            "ariaLabel": "Add connection string"
+        },
+        "deleteConnectionCommand": {
+            "label": "Delete Connection",
+            "ariaLabel": "Delete connection string {{connectionString}}"
+        },
+        "editConnectionCommand": {
+            "label": "Edit Connection",
+            "ariaLabel": "Edit connection string {{connectionString}}"
+        },
+        "copyConnectionCommand": {
+            "label": "Copy Connection",
+            "ariaLabel": "Copy connection string {{connectionString}}"
+        },
+        "visitConnectionCommand": {
+            "label": "View devices in this hub",
+            "ariaLabel": "View resource: {{connectionString}}"
+        },
+        "deleteConnection": {
+            "title": "Confirm Delete",
+            "body": "Delete the following connection string?",
+            "input": "Connection string to delete",
+            "yes": {
+                "ariaLabel": "Yes, delete {{connectionString}}",
+                "label": "Yes"
+            },
+            "no": {
+                "ariaLabel": "No, do not delete {{connectionString}}",
+                "label": "No"
+            }
+        },
+        "editConnection": {
+            "save": {
+                "label": "Save",
+                "ariaLabel": "Save connection string"
+            },
+            "cancel": {
+                "label": "Cancel",
+                "ariaLabel": {
+                    "add": "Cancel Add of Connection String",
+                    "edit":"Cancel Edit of Connection String"
+                }
+            },
+            "title": {
+                "add": "Add connection string",
+                "edit": "Edit connection string"
+            },
+            "editField": {
+                "label": "Connection string",
+                "ariaLabel": "Connection string",
+                "placeholder": "enter a connection string"
+            },
+            "validations": {
+                "duplicate": "The specified connection string is already listed."
+            }
+        },
+        "properties": {
+            "hostName": {
+                "label": "Host name",
+                "ariaLabel": "Host name for {{connection string}}"
+            },
+            "sharedAccessPolicyName": {
+                "label": "Shared access policy name",
+                "ariaLabel": "Shared Access Policy Name for {{connection string}}"
+            },
+            "sharedAccessPolicyKey": {
+                "label": "Shared access policy key",
+                "ariaLabel": "Shared Access Policy Key for {{connection string}}"
+            },
+            "connectionString": {
+                "label": "Connection String",
+                "ariaLabel": "Connection String"
+            }
+        },
+        "expirationWarning": "Your hub connection string is expiring in less than {{numberOfDays}} day(s). Please edit the connection string (by copying and pasting again) to extend, or you will have to re-add it once it expires."
+    },
+    "connectivityPane": {
+        "connectionStringComboBox": {
+            "link": "https://aka.ms/iot-connection-strings",
+            "linkText": "Where do I get an IoT hub connection string?",
+            "errorMessages": {
+                "required": "Connection string is required",
+                "invalid": "Invalid connection string"
+            },
+            "warning": "Please do not save your hub connection string to any unsafe locations"
+        }
+    },
+    "deviceIdentity": {
+        "headerText": "Device identity",
+        "deviceID": "Device ID",
+        "deviceIDTooltip": "Device identity used for device authentication and access control",
+        "authenticationType": {
+            "text": "Authentication type",
+            "symmetricKey": {
+                "autoGenerate": "Auto-generate keys",
+                "type": "Symmetric key",
+                "primaryKey": "Primary key",
+                "secondaryKey": "Secondary key",
+                "primaryConnectionString": "Primary connection string",
+                "primaryConnectionStringTooltip": "Connection string based on primary key used in API calls which allows device to communicate with IoT Hub",
+                "primaryKeyTooltip": "The primary symmetric shared access key stored in base64 format",
+                "secondaryConnectionString": "Secondary connection string",
+                "secondaryConnectionStringTooltip": "Connection string based on secondary key used in API calls which allows device to communicate with IoT Hub",
+                "secondaryKeyTooltip": "The secondary symmetric shared access key stored in base64 format",
+                "generatePrimaryKey": "Generate primary key",
+                "generateSecondaryKey": "Generate secondary key"
+            },
+            "ca": {
+                "type": "X.509 CA signed",
+                "text": "This device is being authenticated through a CA Certificate.",
+                "connectionString": "Connection string",
+                "connectionStringTooltip": "Connection string used in API calls which allows device to communicate with IoT Hub"
+            },
+            "selfSigned": {
+                "type": "X.509 self-signed",
+                "text": "This device is being authenticated using an X.509 certificate.",
+                "primaryThumbprint": "Primary thumbprint",
+                "primaryThumbprintTooltip": "The primary X.509 thumbprint representing the SHA-1 or SHA-256 hash of the X.509 certificate. Thumbprint values other than 40 hex characters for SHA-1 and 64 hex characters for SHA-256 are not accepted.",
+                "secondaryThumbprint": "Secondary thumbprint",
+                "secondaryThumbprintTooltip": "The secondary X.509 thumbprint representing the SHA-1 or SHA-256 hash of the X.509 certificate. Thumbprint values other than 40 hex characters for SHA-1 and 64 hex characters for SHA-256 are not accepted.",
+                "connectionString": "Connection string",
+                "connectionStringTooltip": "Connection string used in API calls which allows device to communicate with IoT Hub"
+            },
+            "sasToken": {
+                "label": "Connection string with SAS token",
+                "toolTip": "Generate a connection string using a SAS token",
+                "symmetricKey": "Symmetric key",
+                "expiration": "Expiration (minutes)",
+                "textField": {
+                    "label": "SAS token connection string",
+                    "ariaLabel": "SAS token connection string"
+                },
+                "generateButton": {
+                    "title": "Generate",
+                    "text": "Generate"
+                }
+            }
+        },
+        "hubConnectivity": {
+            "label": "Connect this device to IoT hub",
+            "tooltip": "Enable or Disable the device interaction with the IoT Hub",
+            "enable": "Enable",
+            "enabled": "Enabled",
+            "disable": "Disable",
+            "disabled": "Disabled"
+        },
+        "commands": {
+            "save": "Save",
+            "manageKeys": {
+                "label": "Manage keys",
+                "ariaLabel": "Manage keys for device"
+            },
+            "regeneratePrimary": {
+                "ariaLabel": "Regenerate primary key",
+                "label": "Regenerate primary key",
+                "generated": "Primary key generated. Click 'Save' to commit changes."
+            },
+            "regenerateSecondary": {
+                "ariaLabel": "Regenerate secondary key",
+                "label": "Regenerate secondary key",
+                "generated": "Secondary key generated. Click 'Save' to commit changes."
+            },
+            "swapKeys": {
+                "ariaLabel": "Swap keys",
+                "label": "Swap keys",
+                "swapped": "Primary and secondary key swapped. Click 'Save' to commit changes."
+            }
+        },
+        "validation": {
+            "invalidDeviceId": "Invalid characters in device ID",
+            "invalidKey": "Invalid key",
+            "invalidThumbprint": "Invalid thumbprint"
+        },
+        "qrCode": {
+            "label": "Connect your phone as an IoT device",
+            "toolTip": "Use the IoT mobile app and a QR code to turn your mobile device into a Plug and Play IoT device",
+            "headerText": "Connect your smartphone to Azure IoT",
+            "callToAction": "Download the 'Phone as IoT Device' app and use your phone’s camera to scan the QR code. Your phone will become an IoT Plug And Play device, giving you access to your phone's sensors for telemetry."
+        }
+    },
+    "deviceLists": {
+        "paging": {
+            "pages": "Pages:"
+        },
+        "loadingDevice": "Loading devices",
+        "noDevice": "No devices to display",
+        "noData": "None",
+        "columns": {
+            "deviceId": {
+                "label": "Device ID",
+                "infoText": "Device identity used for device authentication and access control"
+            },
+            "status": {
+                "label": "Status",
+                "infoText": "The current status of the device"
+            },
+            "connection": "Connection state",
+            "lastActivityTime": "Last activity time",
+            "statusUpdatedTime":"Last status update time",
+            "cloudToDeviceMessageCount": "Cloud to device message count",
+            "authenticationType": "Authentication type",
+            "isEdgeDevice": {
+                "label": "Edge device",
+                "yes": "Is Edge device",
+                "no": "Is not Edge device"
+            },
+            "isPnpDevice": "IoT Plug and Play device",
+            "interfaces": "Interfaces"
+        },
+        "commands": {
+            "add": "New",
+            "close": "Cancel",
+            "delete": {
+                "buttonText": "Delete",
+                "confirmationDialog": {
+                    "title": "Delete from IoT Hub?",
+                    "subText": "Review carefully. You are about to remove the following device(s) from your IoT hub and may have consequences for others using the same Hub or device(s).",
+                    "confirm" : "Delete",
+                    "cancel": "Cancel"
+                }
+            },
+            "refresh": "Refresh",
+            "save": "Create"
+        },
+        "query": {
+            "deviceId": {
+                "placeholder": "Query by device ID...",
+                "ariaLabel": "Query by device ID",
+                "searchButton": {
+                    "title": "Search",
+                    "ariaLabel": "Execute Search by device id and no additional clauses"
+                }
+            },
+            "searchPills": {
+                "add": {
+                    "ariaLabel": "Add query parameter",
+                    "text": "Add query parameter"
+                },
+                "search": {
+                    "ariaLabel": "Execute search with specified clauses and without device Id.",
+                    "text": "Search"
+                },
+                "clause": {
+                    "parameterType": {
+                        "placeholder":"Parameter type",
+                        "ariaLabel": "Type of query clause",
+                        "items": {
+                            "propertyValue": "Property value",
+                            "status": "Status",
+                            "lastActivityTime": "Last activity time",
+                            "statusUpdateTime": "Status update time",
+                            "edge":"Edge"
+                        }
+                    },
+                    "operationType": {
+                        "title": "Operation type",
+                        "ariaLabel": "Choose a comparison type for this clause",
+                        "options": {
+                            "equals": "equals",
+                            "notEquals": "not equal"
+                        }
+                    },
+                    "value": {
+                        "placeholder": "Select value",
+                        "ariaLabel": "Enter a value for this clause",
+                        "deviceCapability": {
+                            "edge": "is Edge device",
+                            "nonEdge": "is not Edge device"
+                        },
+                        "deviceStatus": {
+                            "enabled": "Enabled",
+                            "disabled": "Disabled"
+                        }
+                    },
+                    "remove": {
+                        "title": "Remove",
+                        "ariaLabel": "Remove this clause"
+                    }
+                }
+            }
+        },
+        "messageBar": {
+            "message": "{{version}} has been released.",
+            "link": "Please click here to download."
+        }
+    },
+    "deviceTwin": {
+        "notFound": "No device twin data found",
+        "headerText": "Device twin",
+        "command" : {
+            "refresh": "Refresh",
+            "save": "Save"
+        },
+        "tooltip": "You can add tags and desired properties to your device twin here. To remove a tag or desired property, set the value of the item to be removed to 'null'."
+    },
+    "digitalTwin": {
+        "headerText": "IoT Plug and Play components",
+        "modelId": "Model ID",
+        "modelContainsNoComponents": "Model '{{modelId}}' contains no IoT Plug and Play components",
+        "componentName": "Component",
+        "steps": {
+            "zero": "Your device is not recognized as a IoT Plug and Play device. To learn more, please check out ",
+            "zeroModule": "Your module is not recognized as a IoT Plug and Play module. To learn more, please check out ",
+            "firstModule": "Step1. Your module has been discovered as a Plug and Play module",
+            "first": "Step 1. Your device has been discovered as a IoT Plug and Play device",
+            "secondSuccess": "Step 2. We've resolved your IoT Plug and Play model",
+            "secondFailure": "Step 2. We are not able to retrieve model definition for {{modelId}}",
+            "third": "Step 3. Continue your IoT Plug and Play journey by drilling down to each component",
+            "explanation": "If you have defined 'Property', 'Command' or 'Telemetry' in model {{modelId}}, you would be able to see 'Default component' in the table below. If you have defined 'Component', you would be able to see a list of components down below."
+        },
+        "pivot": {
+            "ariaLabel": "Model component and content pivot",
+            "components" :"Components",
+            "content": "Model content",
+            "defaultComponent": "Default component",
+            "digitalTwin": "Digital twin content"
+        },
+        "interfaceId": "Model ID"
+    },
+    "deviceProperties": {
+        "command" : {
+            "refresh": "Refresh",
+            "openReportedValuePanel": "Click to view value",
+            "close": "Back"
+        },
+        "headerText": "Read-only properties",
+        "noProperties": "ComponentName {{componentName}} contains no read-only property definitions",
+        "columns": {
+            "name": "Name (Display Name / Description)",
+            "value": "Value",
+            "schema": "Schema",
+            "unit": "Unit",
+            "error": "value does not match schema"
+        },
+        "editor": {
+            "label": "Property schema '{{schema}}' is not yet supported in UI forms. Please use the JSON editor below to view reported value"
+        }
+    },
+    "deviceSettings": {
+        "command" : {
+            "refresh": "Refresh",
+            "submit": "Update desired value",
+            "openReportedValuePanel": "Click to view value",
+            "openDesiredValuePanel": "Click to edit",
+            "expandAll": "Expand all",
+            "expand": "Expand",
+            "collapseAll": "Collapse all",
+            "collapse": "Collapse",
+            "close": "Back"
+        },
+        "headerText": "Writable properties",
+        "noSettings": "ComponentName {{componentName}} contains no writable property definitions",
+        "ackStatus": {
+            "code": "Ack code: {{code}}",
+            "description": "Ack description: {{description}}",
+            "version": "Ack version: {{version}}"
+        },
+        "columns": {
+            "name": "Name (Display Name / Description)",
+            "schema": "Schema",
+            "unit": "Unit",
+            "reportedValue": "Reported Value (Ack metadata)",
+            "reportedValueTooltip": "Reported value is updated asynchronously. Please click 'Refresh' button on the top to get latest value manually",
+            "error": "value does not match schema"
+        },
+        "panel": {
+            "title": "Reported value"
+        }
+    },
+    "deviceCommands": {
+        "command" : {
+            "refresh": "Refresh",
+            "submit": "Send command",
+            "expandAll": "Expand all",
+            "expand": "Expand",
+            "collapseAll": "Collapse all",
+            "collapse": "Collapse",
+            "close": "Back"
+        },
+        "headerText": "Commands",
+        "noCommands": "ComponentName {{componentName}} contains no command definitions",
+        "columns": {
+            "name": "Name (Display Name / Description)",
+            "schema": {
+                "request": "Request schema",
+                "response": "Response schema"
+            },
+            "type": "Command type"
+        },
+        "confirmSend": {
+            "title": "Confirm Send",
+            "body":"One or more fields are empty or invalid, do you still want to send this command?",
+            "yes": {
+                "label": "Send Anyway",
+                "ariaLabel": "Send command anyway"
+            },
+            "no": {
+                "label": "Cancel",
+                "ariaLabel": "Cancel command"
+            }
+        }
+    },
+    "deviceInterfaces": {
+        "command" : {
+            "refresh": "Refresh",
+            "configure": "Configure",
+            "close": "Back"
+        },
+        "columns": {
+            "id": "Interface Id",
+            "source": "You model definition has been resolved from",
+            "noSource": "Failed to get interface definition",
+            "displayName": "Name",
+            "description": "Description"
+        },
+        "headerText": "Interface",
+        "noInterfaces": "No interfaces",
+        "interfaceNotFound": "We are not able to retrieve any valid interface model definition. Please click 'Configure' button below to see how we resolve model definition.",
+        "interfaceNotValid": "Model definition is not valid. Please update the model definition and then proceed.",
+        "interfaceListFailedToRender": "Failed to parse component list from the model definition. It may contain definitions that we don't support at this point. Please visit our wiki to check the scope of DTDL we support: https://github.com/Azure/azure-iot-explorer/wiki"
+    },
+    "deviceEvents": {
+        "command" : {
+            "refresh": "Refresh",
+            "clearEvents": "Clear events",
+            "showSystemProperties": {
+                "label": "Show system properties",
+                "announce": {
+                    "show": "Show system properties of the telemetries",
+                    "hide": "Hide system properties of the telemetries"
+                }
+            },
+            "start": "Start",
+            "stop": "Stop",
+            "fetch": "Retrieve events",
+            "close": "Back",
+            "simulate": "Simulate a device",
+            "customizeContentType": "Customize Content Type"
+        },
+        "consumerGroups": {
+            "label": "Consumer group",
+            "tooltip": "Consumer groups are used by applications to pull data from the IoT Hub. To change the current consumer group, stop monitoring telemetry."
+        },
+        "startTime": {
+            "error": "Please enter datetime format in yyyy/mm/dd/hh/mm/ss",
+            "label": "Start time",
+            "tooltip": "Indicates the local enqueue time that should be used to read messages from the event hub. If not specified, the enqueue time would be the moment you click on the 'Start' button."
+        },
+        "customEventHub": {
+            "connectionString": {
+                "label": "Custom event hub connection string",
+                "placeHolder": "Endpoint=sb://<FQDN>/;SharedAccessKeyName=<KeyName>;SharedAccessKey=<KeyValue>",
+                "error": "Event hub connection string format should look like 'Endpoint=sb://<FQDN>/;SharedAccessKeyName=<KeyName>;SharedAccessKey=<KeyValue>'"
+            }
+        },
+        "headerText": "Telemetry",
+        "noEvent": "ComponentName {{componentName}} contains no telemetry definitions",
+        "tooltip": "You can monitor telemetry that the device sends to the IoT hub",
+        "interfaceDropDown": {
+            "label": "Select interface to filter telemetry",
+            "placeHolder": "Select interface"
+        },
+        "infiniteScroll": {
+            "loading": "Receiving events..."
+        },
+        "event": {
+            "body": "Body: ",
+            "enqueuedTime": "Enqueued time: ",
+            "properties": "Properties: "
+        },
+        "columns": {
+            "displayName": "Name",
+            "timestamp": "Enqueue time",
+            "schema": "Schema",
+            "unit": "Unit",
+            "value": "Value",
+            "validation": {
+                "key": {
+                    "isNotSpecified": "This telemetry '{{key}}' is not in the model. You may consider modeling it.",
+                    "doesNotMatch": "Key mismatch. Expected key is {{expectedKey}}, but received is {{receivedKey}}"
+                },
+                "value": {
+                    "label": "value does not match schema",
+                    "bodyIsEmpty": "Telemetry body is empty"
+                }
+            }
+        },
+        "toggleShowRawData": {
+            "label": "Show raw telemetry data",
+            "on": "On",
+            "off": "Off"
+        },
+        "toggleUseDefaultEventHub": {
+            "label": "Use built-in event hub",
+            "on": "Yes",
+            "off": "No"
+        },
+        "toggleSpecifyStartingTime": {
+            "label": "Specify enqueue time",
+            "on": "Yes",
+            "off": "No"
+        },
+        "error": "Failed to monitor events. {{error}}",
+        "simulation": {
+            "header": "Simulate a device using CLI in Azure Cloud Shell",
+            "cloudShell": {
+                "imageDescription": "Launch Azure Cloud Shell",
+                "textDescription": "Click Launch Cloud Shell, paste the commands below to simulate a device sending telemetry. You will be able to start monitoring events from the built-in event hub."
+            },
+            "prerequisite": {
+                "label": "Prerequisite",
+                "tooltiop": "If you have not used Azure Cloud Shell before",
+                "instruction": "Follow the instructions in Azure Cloud Shell to pick a subscription and set up a storage if you haven't used Cloud Shell before. If you have encountered error 'az iot: 'device' is not in the 'az iot' command group', use command 'az extension add --name azure-iot' to install Azure IoT CLI extension."
+            },
+            "basic": {
+                "label": "Basic scenario",
+                "tooltiop": "Zero input basic scenario",
+                "instruction": "Simply copy paste the following command to Azure Cloud Shell. It will start simulating device {{deviceId}} as it's sending messages to IoT Hub. You can click 'Start' button from the Telemetry page to start monitoring the events.",
+                "copyLabel": "Simulating device {{deviceId}}"
+            },
+            "advanced": {
+                "label": "Advanced scenario",
+                "tooltiop": "For advanced users to simulate events' body or properties",
+                "instruction": "Enter the desired message body and/or properties, and copy paste the generated command to Azure Cloud Shell. It will start simulating device {{deviceId}} as it's sending messages to IoT Hub. You can click 'Start' button from the Telemetry page to start monitoring the events.",
+                "copyLabel": "Simulating device {{deviceId}}",
+                "body": {
+                    "label": "Provide event body",
+                    "tooltip": "If left empty, the default value would be: 'Ping from Az CLI IoT Extension'."
+                },
+                "properties": {
+                    "key": "Key",
+                    "keyDup": "Key must be unique",
+                    "value": "Value",
+                    "addProperty": "Add a property",
+                    "delete": "Delete",
+                    "toggleSelectionColumnAriaLabel": "Toggle selection",
+                    "selectAllCheckboxAriaLabel": "Toggle selection for all",
+                    "rowCheckBoxAriaLabel": "Row checkbox"
+                }
+            }
+        },
+        "customizeContentType": {
+            "header": "Update Content Type",
+            "contentTypeOption": {
+                "label": "Content Type"
+            },
+            "protobuf": {
+                "file": {
+                    "label": "Decoder File",
+                    "removeFile": "Close"
+                },
+                "type": {
+                    "label": "Decoder Type",
+                    "placeholder": "Please enter protocol buffer decoder type"
+                }
+            },
+            "save": "Save"
+        }
+    },
+    "directMethod": {
+        "headerText": "Direct method",
+        "tooltip": "You can send direct methods to a device. Direct methods have a name, payload, and configurable connection and method timeouts.",
+        "methodName": "Method name",
+        "methodNamePlaceHolder": "The name of the Direct method to invoke on this device",
+        "connectionTimeout": "Connection timeout in seconds",
+        "connectionTimeoutTooltip": "Number of seconds to wait until a connection is successfully made.",
+        "responseTimeout": "Response timeout in seconds",
+        "responseTimeoutTooltip": "Number of seconds to wait until a result is received from the Direct method.",
+        "invokeMethodButtonText": "Invoke method",
+        "payload" : "Payload",
+        "payloadTooltip" : "The payload for the Direct method to invoke on the device",
+        "result" : "Result"
+    },
+    "cloudToDeviceMessage": {
+        "headerText": "Cloud-to-device message",
+        "tooltip":"You can send messages to a device in your IoT Hub. Messages have both a body and optional properties organized as a collection of key/value string pairs.",
+        "sendMessageButtonText": "Send message to device",
+        "body" : "Message body",
+        "bodyTooltip" : "The body of the message to send to the device.",
+        "addTimestamp": "Add timestamp to message body",
+        "properties": {
+            "label": "Properties",
+            "systemProperties": {
+                "ack": {
+                    "displayName": "ack",
+                    "description": "Type of the feedback requested.",
+                    "full": "Full (IoT Hub generates a feedback message in either case)",
+                    "positive": "Positive (If the c2d message reaches the Completed state, IoT Hub generates a feedback message)",
+                    "negative": "Negative (If the c2d message reaches the Dead lettered state, IoT Hub generates a feedback message)"
+                },
+                "contentType": {
+                    "displayName": "content-type",
+                    "description": "The content type associated with the message body."
+                },
+                "contentEncoding": {
+                    "displayName": "content-encoding",
+                    "description": "The content encoding associated with the message body.",
+                    "utf8": "utf-8",
+                    "utf16": "utf-16",
+                    "utf32": "utf-32"
+                },
+                "correlationId": {
+                    "displayName": "correlation-id",
+                    "description": "The correlation Id associated with the message."
+                },
+                "expiryTimeUtc": {
+                    "displayName": "expiry-time-utc",
+                    "description": "Expiry time in UTC in milliseconds since unix epoch.",
+                    "error": "Expiry time must be an integer and greater than now"
+                },
+                "lockToken": {
+                    "displayName": "lock-token",
+                    "description": "Used to Abandon, Reject or Accept the message."
+                },
+                "messageId": {
+                    "displayName": "message-id",
+                    "description": "The message Id. If no message Id is provided a UUID will be generated."
+                }
+            },
+            "key": "Key",
+            "keyDup": "Key must be unique",
+            "value": "Value",
+            "addCustomProperty": "Add custom property",
+            "addSystemProperty": "Add system property",
+            "delete": "Delete",
+            "tooltip": "The properties of the message to be sent to this device.",
+            "toggleSelectionColumnAriaLabel": "Toggle selection",
+            "selectAllCheckboxAriaLabel": "Toggle selection for all",
+            "rowCheckBoxAriaLabel": "Row checkbox"
+        },
+        "output" : "Output"
+    },
+    "moduleIdentity": {
+        "headerText": "Module identities",
+        "tooltip": "You can create up to 20 module identities. Each module identity implicitly generates a module twin",
+        "link": "https://aka.ms/iot-hub-module-twin",
+        "addModuleHeaderText": "Add module identity",
+        "command" : {
+            "add": "Add",
+            "refresh": "Refresh",
+            "cancel": "Cancel",
+            "save": "Create"
+        },
+        "columns": {
+            "moduleId": "Module Id",
+            "connectionState": "Connection state",
+            "connectionStateLastUpdated": "Connection state last updated time",
+            "lastActivityTime": "Last activity time",
+            "modelId": "IoT Plug and Play module"
+        },
+        "noModules": "There are no module identities for this device.",
+        "errorFetching": "An error prevented this information from being loaded.",
+        "moduleId": "Module identity name",
+        "moduleIdTooltip": "Module identity name used for authentication and access control.",
+        "authenticationType": {
+            "text": "Authentication type",
+            "symmetricKey": {
+                "autoGenerate": "Auto-generate keys",
+                "type": "Symmetric key",
+                "primaryKey": "Primary key",
+                "secondaryKey": "Secondary key",
+                "primaryConnectionString": "Primary connection string",
+                "primaryKeyTooltip": "The primary symmetric shared access key stored in base64 format",
+                "secondaryConnectionString": "Secondary connection string",
+                "secondaryKeyTooltip": "The secondary symmetric shared access key stored in base64 format",
+                "generatePrimaryKey": "Generate primary key",
+                "generateSecondaryKey": "Generate secondary key"
+            },
+            "ca": {
+                "type": "X.509 CA signed",
+                "text": "This device is being authenticated through a CA Certificate."
+            },
+            "selfSigned": {
+                "type": "X.509 self-signed",
+                "text": "This device is being authenticated using an X.509 certificate.",
+                "primaryThumbprint": "Primary thumbprint",
+                "primaryThumbprintTooltip": "The primary X.509 thumbprint representing the SHA-1 or SHA-256 hash of the X.509 certificate. Thumbprint values other than 40 hex characters for SHA-1 and 64 hex characters for SHA-256 are not accepted.",
+                "secondaryThumbprint": "Secondary thumbprint",
+                "secondaryThumbprintTooltip": "The secondary X.509 thumbprint representing the SHA-1 or SHA-256 hash of the X.509 certificate. Thumbprint values other than 40 hex characters for SHA-1 and 64 hex characters for SHA-256 are not accepted."
+            }
+        },
+        "validation": {
+            "invalidModuleIdentityName": "Invalid characters in module identity name",
+            "invalidKey": "Invalid key",
+            "invalidThumbprint": "Invalid thumbprint"
+        },
+        "detail" : {
+            "headerText": "Module identity detail",
+            "command" : {
+                "back": "Back to device",
+                "refresh": "Refresh",
+                "delete": "Delete",
+                "save": "Save"
+            },
+            "twin": "Module identity twin",
+            "deleteConfirmation": "Are you certain you wish to delete this module identity?"
+        }
+    },
+    "noMatchError": {
+        "title": "404 - Not found",
+        "description": "The page you are looking is unavailable.",
+        "goHome" : "GO TO HOMEPAGE"
+    },
+    "notifications": {
+        "savedToIotHubConnectionString": "Successfully saved connection string for IoT hub {{hostName}}",
+        "getDeviceIdentityOnError": "Failed to get device {{deviceId}}'s identity: {{error}}",
+        "getDeviceListOnError": "Failed to retrieve device list: {{error}}",
+        "getDeviceListGenericErrorHelp": "Failed to retrieve device list. It is possibly due to an invalid IoT hub connection string",
+        "getDeviceTwinOnError": "Failed to get device {{deviceId}}'s twin: {{error}}",
+        "getDigitalTwinOnError": "Failed to get properties of the IoT Plug and Play device {{deviceId}}: {{error}}",
+        "getModuleIdentitiesOnError": "Failed to get module identities of device {{deviceId}}: {{error}}",
+        "getInterfaceModelOnError": "Failed to get interface model definition {{interfaceId}} from any of the sources configured",
+        "parseLocalInterfaceModelOnError": "{{interfaceId}} cannot be retrieved from local folder. Here is a list of json files with errors that we encountered while parsing: {{files}}. Please note that trailing comma is not allowed in json files.",
+        "updateDeviceTwinOnError": "Failed to update device twin on device {{deviceId}}: {{error}}",
+        "updateDeviceTwinOnSuccess": "Successfully updated device twin on device {{deviceId}}.",
+        "invokeDigitalTwinCommandOnError": "Failed to invoke the IoT Plug and Play command '{{commandName}}' on device '{{deviceId}}': {{error}}",
+        "invokeDigitalTwinCommandOnSuccess": "Successfully invoked the IoT Plug and Play command '{{commandName}}' on device '{{deviceId}}': {{response}}",
+        "invokingDigitalTwinCommand": "Trying to invoke the IoT Plug and Play command '{{commandName}}' on device '{{deviceId}}' with no payload",
+        "invokingDigitalTwinCommandWithPayload": "Trying to invoke the IoT Plug and Play command '{{commandName}}' on device '{{deviceId}}' with payload {{payload}}",
+        "invokeDigitalTwinCommandOnSuccessButResponseIsNotValid": "Successfully invoked the IoT Plug and Play command '{{commandName}}' on device '{{deviceId}}': {{response}}. But the response is not valid: {{validationResult}}",
+        "invokeMethodOnError": "Failed to invoke method on device {{deviceId}}: {{error}}",
+        "invokeMethodOnSuccess": "Successfully invoked method '{{methodName}}' on device '{{deviceId}}' with response {{response}}",
+        "invokingMethodWithPayload": "Trying to invoke method '{{methodName}}' on device '{{deviceId}}' with payload {{payload}}",
+        "invokeModuleMethodOnError": "Failed to invoke method on device {{deviceId}} module {{moduleId}}: {{error}}",
+        "invokeModuleMethodOnSuccess": "Successfully invoked method '{{methodName}}' on device '{{deviceId}}'  module {{moduleId}} with response {{response}}",
+        "invokingModuleMethodWithPayload": "Trying to invoke method '{{methodName}}' on device '{{deviceId}}'  module {{moduleId}} with payload {{payload}}",
+        "interfaceSchemaNotSupported": "Property schema '{{schema}}' is not yet supported in UI forms. Please use the JSON editor below to view and update value",
+        "deleteDeviceOnSucceed": "Successfully deleted {{count}} device(s)",
+        "deleteDeviceOnError": "Failed to delete {{count}} device(s): {{error}}",
+        "addDeviceOnSucceed": "Successfully added device {{deviceId}}",
+        "addDeviceOnError": "Failed to add device {{deviceId}}: {{error}}",
+        "updateDeviceOnSucceed": "Successfully updated device {{deviceId}}",
+        "updateDeviceOnError": "Failed to update device {{deviceId}}: {{error}}",
+        "patchDigitalTwinOnError": "Failed to update desired properties of the IoT Plug and Play device {{deviceId}} with response code {{error}}",
+        "patchDigitalTwinOnSuccess": "Successfully updated desired properties of the IoT Plug and Play device {{deviceId}}.",
+        "patchDigitalTwinOnAccept": "The request to updated desired properties of the IoT Plug and Play device {{deviceId}} has been accepted.",
+        "cloudToDeviceMessageOnError": "Failed to send message to device {{deviceId}}: {{error}}",
+        "cloudToDeviceMessageOnSuccess": "Successfully send message '{{message}}' to device '{{deviceId}}'",
+        "sendingCloudToDeviceMessage": "Trying to send message '{{message}}' to device '{{deviceId}}'",
+        "addModuleIdentityOnSucceed": "Successfully added module identity {{moduleId}}",
+        "addModuleIdentityOnError": "Failed to add  module identity {{moduleId}}: {{error}}",
+        "getModuleIdentityTwinOnError": "Failed to get module identity twin for module {{moduleId}}: {{error}}",
+        "updateModuleIdentityTwinOnError": "Failed to update module identity twin for module {{moduleId}}: {{error}}",
+        "updateModuleIdentityTwinOnSuccess": "Successfully updated module identity twin for module {{moduleId}}",
+        "getModuleIdentityOnError": "Failed to get module identity {{moduleId}}: {{error}}",
+        "deleteModuleIdentityOnSuccess": "Successfully deleted module {{moduleId}}",
+        "deleteModuleIdentityOnError": "Failed to delete module identity {{moduleId}}: {{error}}",
+        "portIsInUseError": "The port {{portNumber}} is in use. To get around with the issue, configure a custom port by setting the system environment variable 'AZURE_IOT_EXPLORER_PORT' to an available port number. To learn more, please visit https://github.com/Azure/azure-iot-explorer/wiki/FAQ",
+        "modelRepositorySettingsUpdated": "Model repository locations successfully updated.",
+        "startEventMonitoringOnError": "Failed to start monitoring device telemetry: {{error}}",
+        "stopEventMonitoringOnError": "Failed to stop monitoring device telemetry: {{error}}",
+        "updateCustomDecoderOnError": "Failed to upload custom decode prototype: {{error}}, please try again.",
+        "connectionStringsWithoutExpiryRemovalWarning": "Due to security requirements, previously stored hub connection strings have been removed. The new connection string being added would automatically have an expiration date one year from now.",
+        "connectionStringsWithExpiryRemovalWarning": "Due to security requirements, one or more hub connection strings stored more than a year ago have been removed."
+    },
+    "errorBoundary": {
+        "text": "Something unexpected went wrong. Help us identify the issue by opening the bug at https://github.com/Azure/azure-iot-explorer/issues"
+    },
+    "template": {
+        "array":{
+            "add": "Add an entry",
+            "remove": "Remove current entry"
+        },
+        "collapse": {
+            "open": "Open for more information",
+            "close": "Collapse"
+        }
+    },
+    "modelRepository" : {
+        "description": {
+            "header": "Model Repository Locations:",
+            "description": "Model repository locations specify where the application looks to find IoT Plug and Play model definitions. Locations are saved to application storage and can be edited or removed at any time.",
+            "help": "What is IoT Plug and Play"
+        },
+        "instruction": "We'll look for your model definition in the following order. Please drag and drop to change it. Click 'Add' to enable more ways to can resolve your model definitions.",
+        "commands": {
+            "save": {
+                "label": "Save",
+                "ariaLabel": "Save"
+            },
+            "revert": {
+                "label": "Revert",
+                "ariaLabel": "Revert to last saved"
+            },
+            "add": {
+                "label": "Add",
+                "ariaLabel": "Add model source"
+            },
+            "addPublicSource" : {
+                "label": "Public repository",
+                "ariaLabel": "Public repository model source"
+            },
+            "addConfigurableRepoSource" : {
+                "label": "Configurable repository",
+                "ariaLabel": "Configurable repository model source"
+            },
+            "addLocalSource": {
+                "label": "Local folder",
+                "ariaLabel": "Add local folder as model source"
+            },
+            "addLocalDMRSource": {
+                "label": "Local repository",
+                "ariaLabel": "Add local repository as model source"
+            },
+            "remove": {
+                "label": "Remove",
+                "ariaLabel": "Remove"
+            },
+            "back": {
+                "label": "Go back",
+                "ariaLabel": "Go back"
+            },
+            "help": {
+                "label": "Help",
+                "ariaLabel": "Help"
+                }
+        },
+        "types": {
+            "public" : {
+                "label": "Public Repository",
+                "infoText": "The <0>iot-plugandplay-models GitHub repository</0> includes DTDL models that are made publicly available on https://devicemodels.azure.com."
+            },
+            "configurable" : {
+                "label": "Configurable Repository",
+                "infoText": "Configure your own repository endpoint.",
+                "textBoxLabel": "Repository endpoint"
+            },
+            "local": {
+                "label": "Local Folder",
+                "infoText": "Use your local folder as a model repository. The model definition files you wish to use should have a json extension. The first JSON file with an '@id' property matching the digital twin model identifier (DTMI) will be retrieved.",
+                "textBoxLabel": "Selected folder",
+                "folderPicker": {
+                    "command": {
+                        "openPicker": "Pick a folder",
+                        "navigateToParent": "Navigate back to parent folder",
+                        "select": "Select",
+                        "cancel": "Cancel"
+                    },
+                    "dialog": {
+                        "title": "Select a folder as a local model repository",
+                        "subText": "Selected folder: {{folder}}",
+                        "noFolderFoundText": "No folders found.",
+                        "error": "Failed to retrieve folder information."
+                    }
+                }
+            },
+            "dmr": {
+                "label": "Local Repository",
+                "infoText": "Use your local folder as a model repository following the <0>resolution convention spec</0>. Please configure the file path to your root repository directory containing a sub dtmi directory."
+            },
+            "notAvailable": "--",
+            "mandatory": "Input is required."
+        }
+    },
+    "authentication": {
+        "authSelection": {
+            "header": "Welcome to Azure IoT Explorer, a cross-platform UI for interacting with devices attached to Azure IoT Hub",
+            "subText": "Choose an authentication method and connect to an Azure IoT hub. IoT Hub uses permissions to grant access to each IoT hub endpoint. Permissions limit the access to an IoT hub based on functionality. <0>Learn more</0>",
+            "selection": {
+                "azureActiveDirectory": "Connect via Azure Active Directory",
+                "connectionString": "Connect via IoT Hub connection string"
+            },
+            "switchAuthType": "Switch authentication method"
+        },
+        "azureActiveDirectory" : {
+            "command": {
+                "login": "Login",
+                "logout": "Logout"
+            },
+            "notification": {
+                "loginError": "Failed to login",
+                "logoutError": "Failed to logout",
+                "getsubscriptionListError": "Failed to get subscription list: {{error}}",
+                "getIotHubListError": "Failed to get IoT hubs under subscription {{id}} list: {{error}}",
+                "getIotHubKeyError": "Failed to get an IoT hub key with proper rights to enable full functionality of the IoT Explorer: {{error}}"
+            },
+            "subscriptionList": {
+                "columns": {
+                    "id": "Id",
+                    "name": "Subscription name",
+                    "state": "State"
+                },
+                "noItemText": "There are no subscriptions to show."
+            },
+            "hubList": {
+                "columns": {
+                    "location": "Location",
+                    "name": "IoT Hub name"
+                },
+                "backButton": "Back to subscription list",
+                "noItemText": "There are no IoT hubs under this subscription."
+            },
+            "filter": {
+                "placeHolder": "Filter by name",
+                "result": "results found."
+            }
+        }
+
+    }
+}

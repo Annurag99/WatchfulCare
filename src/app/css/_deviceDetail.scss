@@ -1,0 +1,74 @@
+/***********************************************************
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License
+ **********************************************************/
+ @import 'themes';
+ @import 'variables';
+
+@media screen and (min-width: $screenSize) {
+    .device-detail {
+        flex-grow: 1;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: $screenSize) {
+    .device-detail {
+        padding-left: 5px;
+    }
+}
+
+.device-detail-command {
+    flex-grow: 0;
+}
+
+.device-detail-header {
+    flex-grow: 0;
+}
+
+.method-payload{
+    padding-top: 10px;
+    .payload-input {
+        margin-bottom: 20px;
+    }
+}
+
+.direct-method-json-editor {
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.cloud-to-device-message-text-field {
+    margin-bottom: 15px;
+}
+
+.properties-section-command-bar {
+    .ms-CommandBar {
+        border-bottom: 0px !important;
+    }
+
+    .ms-OverflowSet-item{
+        padding-left: 25px;
+    }
+}
+
+.list-detail {
+    .ms-DetailsHeader {
+        @include themify($themes) {
+            background: themed('cellBackground') !important;
+        }
+    }
+
+    .ms-DetailsRow-cell {
+        @include themify($themes) {
+            background: themed('cellBackground') !important;
+        }
+    }
+    .no-device {
+        padding-left: 25px;
+    }
+}
+
+.no-pnp-content {
+    padding: 25px;
+}

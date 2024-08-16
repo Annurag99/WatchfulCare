@@ -1,0 +1,34 @@
+/***********************************************************
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License
+ **********************************************************/
+ @import "themes";
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.2fr 0.8fr 9fr;
+    grid-template-areas:
+        "header"
+        "nav"
+        "content";
+
+    .header {
+        grid-area: header;
+    }
+
+    .topnav {
+        grid-area: nav;
+        @include themify($themes) {
+            border: {
+                bottom: 1px solid themed("borderColor");
+            }
+        }
+    }
+
+    .main {
+        grid-area: content;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}

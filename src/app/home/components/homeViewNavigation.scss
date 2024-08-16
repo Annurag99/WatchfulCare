@@ -1,0 +1,21 @@
+/***********************************************************
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License
+ **********************************************************/
+ @import '../../css/themes';
+
+.nav-link-left {
+    a:link, a:visited, a:active {
+        text-decoration: none;
+        @include themify($themes) {
+            color: themed('menuLinkColor');
+        }
+    }
+
+    a:hover {
+        @include themify($themes) {
+            color: themed('menuLinkColor_Hover');
+            background-color: themed('menuLinkBackground_Hover');
+        }
+    }
+}

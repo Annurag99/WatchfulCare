@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`moduleIdentityTwin snapshot matches snapshot after module twin is fetched 1`] = `
+<Fragment>
+  <StyledCommandBarBase
+    className="command device-detail-command"
+    items={
+      Array [
+        Object {
+          "ariaLabel": "moduleIdentity.detail.command.refresh",
+          "disabled": false,
+          "iconProps": Object {
+            "iconName": "Refresh",
+          },
+          "key": "Refresh",
+          "name": "moduleIdentity.detail.command.refresh",
+          "onClick": [Function],
+        },
+        Object {
+          "ariaLabel": "moduleIdentity.detail.command.save",
+          "disabled": true,
+          "iconProps": Object {
+            "iconName": "Save",
+          },
+          "key": "Save",
+          "name": "moduleIdentity.detail.command.save",
+          "onClick": [Function],
+        },
+      ]
+    }
+  />
+  <article
+    className="device-twin device-detail"
+  >
+    <JSONEditor
+      className="json-editor"
+      content="{
+	\\"authenticationType\\": \\"sas\\",
+	\\"cloudToDeviceMessageCount\\": 0,
+	\\"connectionState\\": \\"Disconnected\\",
+	\\"deviceEtag\\": \\"AAAAAAAAAAE=\\",
+	\\"deviceId\\": \\"deviceId\\",
+	\\"etag\\": \\"AAAAAAAAAAE=\\",
+	\\"lastActivityTime\\": \\"0001-01-01T00:00:00Z\\",
+	\\"moduleId\\": \\"moduleId\\",
+	\\"properties\\": {},
+	\\"status\\": \\"enabled\\",
+	\\"statusUpdateTime\\": \\"0001-01-01T00:00:00Z\\",
+	\\"version\\": 1,
+	\\"x509Thumbprint\\": {
+		\\"primaryThumbprint\\": null,
+		\\"secondaryThumbprint\\": null
+	}
+}"
+      onChange={[Function]}
+    />
+  </article>
+</Fragment>
+`;
+
+exports[`moduleIdentityTwin snapshot matches snapshot while loading 1`] = `
+<Fragment>
+  <StyledCommandBarBase
+    className="command device-detail-command"
+    items={
+      Array [
+        Object {
+          "ariaLabel": "moduleIdentity.detail.command.refresh",
+          "disabled": true,
+          "iconProps": Object {
+            "iconName": "Refresh",
+          },
+          "key": "Refresh",
+          "name": "moduleIdentity.detail.command.refresh",
+          "onClick": [Function],
+        },
+        Object {
+          "ariaLabel": "moduleIdentity.detail.command.save",
+          "disabled": true,
+          "iconProps": Object {
+            "iconName": "Save",
+          },
+          "key": "Save",
+          "name": "moduleIdentity.detail.command.save",
+          "onClick": [Function],
+        },
+      ]
+    }
+  />
+  <MultiLineShimmer />
+</Fragment>
+`;

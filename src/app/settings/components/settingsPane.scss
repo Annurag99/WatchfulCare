@@ -1,0 +1,46 @@
+/***********************************************************
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License
+ **********************************************************/
+.headerPane {
+    .ms-Panel-scrollableContent {
+        overflow-x: hidden;
+    }
+
+    header.panel-header {
+        h2 {
+            height: 28px;
+            font: {
+                size: 20px;
+            }
+            line-height: 24px;
+        }
+    }
+
+    h3[role="heading"] {
+        font: {
+            size: 14px;
+        }
+        line-height: 20px;
+    }
+
+    .header-footer {
+        .footer-buttons {
+            button[type="submit"] {
+                margin-right: 18px;
+            }
+        }
+        padding: {
+            left: 32px;
+            bottom: 32px;
+            right: 32px;
+            top: 0px;
+        }
+        margin-bottom: 0px;
+    }
+
+    .home-link {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,118 @@
+/***********************************************************
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License
+ **********************************************************/
+@import 'themes';
+
+.new-notifications::after {
+    content: '';
+    position: absolute;
+    top: 7.5px;
+    right: 106px;
+    width: 10px;
+    height: 10px;
+    color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    background: $blue;
+    @include themify($themes) {
+        background: themed('notificationBackground');
+    }
+}
+
+.notification-list-entry {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    .success {
+        @include themify($themes) {
+            color: themed('notificationSuccessColor');
+        }
+    }
+
+    .error {
+        @include themify($themes) {
+            color: themed('notificationErrorColor');
+        }
+    }
+
+    .warning {
+        @include themify($themes) {
+            color: themed('notificationWarningColor');
+        }
+    }
+
+    .info {
+        @include themify($themes) {
+            color: themed('notificationInfoColor');
+        }
+    }
+
+    .body {
+        padding-left: 10px;
+        text-overflow: ellipsis;
+
+        .title {
+            font-weight: 550;
+            text-overflow: ellipsis;
+            @include themify($themes) {
+                color: themed('notificationTextColor');
+            }
+            padding-bottom: 7px;
+        }
+
+        .message {
+            padding-bottom: 7px;
+            @include themify($themes) {
+                color: themed('notificationTextColor');
+            }
+            text-overflow: ellipsis;
+            word-wrap:break-word;
+        }
+        .time {
+            @include themify($themes) {
+                color: themed('notificationTextColor');
+            }
+        }
+    }
+}
+
+.notification-toast-body {
+    word-break: break-word;
+}
+
+.Toastify__toast-container {
+    margin-top:25px;
+    z-index: 10000000 !important;
+}
+
+.toast-notification {
+    @include themify($themes) {
+        background-color: themed('notificationBackgroundColor');
+    }
+}
+
+.notification-toast-progress-bar {
+    @include themify($themes) {
+        background: themed('notificationProgressBackground') !important;
+    }
+    height: 2px;
+}
+
+.notificationEntry-flexContainer {
+    display: flex;
+    flex-flow: row;
+}
+
+.notificationEntry-Ringer {
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.alignCenter {
+    align-self: center;
+}
